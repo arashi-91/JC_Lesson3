@@ -44,10 +44,10 @@ f. Написать метод, который позволяет пересып
         appleBox.addFruit(new Apple(1f));
 
         Box<Apple> appleBox1 = new Box<>();
-        appleBox.addFruit(new Apple(1f));
-        appleBox.addFruit(new Apple(1f));
-        appleBox.addFruit(new Apple(1f));
-        appleBox.addFruit(new Apple(1f));
+        appleBox1.addFruit(new Apple(1f));
+        appleBox1.addFruit(new Apple(1f));
+        appleBox1.addFruit(new Apple(1f));
+        appleBox1.addFruit(new Apple(1f));
 
         orangeBox.info();
         appleBox.info();
